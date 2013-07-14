@@ -48,7 +48,7 @@
                                             forState:UIControlStateNormal
                                           barMetrics:UIBarMetricsDefault];
     [[UIBarButtonItem appearanceWhenContainedIn:[UINavigationController class], nil] setBackgroundImage:[UIImage imageWithColor:[UIColor whiteColor] size:CGSizeMake(30, 30) andRoundSize:5.0]
-                                                forState:UIControlStateSelected
+                                                forState:UIControlStateHighlighted
                                               barMetrics:UIBarMetricsDefault];
 
     [[UIBarButtonItem appearanceWhenContainedIn:[UINavigationController class], nil] setTitleTextAttributes:
@@ -66,6 +66,6 @@
                         [NSValue valueWithUIOffset:UIOffsetMake(0, 0)], UITextAttributeTextShadowOffset,
                         [UIFont fontWithName:@"HelveticaNeue-Light" size:18.0], UITextAttributeFont,
                         nil]
-                                                    forState:UIControlStateSelected];
+                                                    forState:UIControlStateHighlighted];
 }
 @end
