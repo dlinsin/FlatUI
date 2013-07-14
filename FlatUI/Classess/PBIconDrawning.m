@@ -65,7 +65,7 @@
     [bezierPath addLineToPoint: middlePoint];
     [bezierPath addLineToPoint: endPoint];
     [color setStroke];
-    bezierPath.lineWidth = 1;
+    bezierPath.lineWidth = 2.5;
     [bezierPath stroke];
     [bezierPath closePath];
 

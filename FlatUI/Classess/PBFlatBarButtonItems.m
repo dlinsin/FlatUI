@@ -17,6 +17,7 @@
     PBBarButtonIconButton *button = [[PBBarButtonIconButton alloc] initWithFrame:CGRectMake(0, 0, 30, 30)];
     [button addTarget:target action:selector forControlEvents:UIControlEventTouchUpInside];
     [button setType:iconType];
+    [button setShowsTouchWhenHighlighted:YES];
     
     UIBarButtonItem *_barButtonItem = [[UIBarButtonItem alloc] initWithCustomView:button];
     return _barButtonItem;
